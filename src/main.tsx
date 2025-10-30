@@ -6,7 +6,7 @@ import { Authenticator } from "@aws-amplify/ui-react";
 import { Amplify } from "aws-amplify";
 import awsExports from "./aws-exports";
 
-Amplify.configure(awsExports as any);
+Amplify.configure(awsExports);
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
